@@ -5,7 +5,7 @@ public struct GitHubCopilotInstallationManager {
     private static var isInstalling = false
 
     static var downloadURL: URL {
-        let commitHash = "a4a6d6b3f9e284e7f5c849619e06cd228cad8abd"
+        let commitHash = "1a284014d2e0baf367706a94b2a9ee5fd56fd457"
         let link = "https://github.com/github/copilot.vim/archive/\(commitHash).zip"
         return URL(string: link)!
     }
